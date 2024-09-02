@@ -1,0 +1,39 @@
+/* Ensure the home section is scrollable if content is long */
+.home {
+  flex: 1; /* Allows the home section to take available space */
+  padding: 20px;
+  overflow: auto; /* Allows scrolling if content is longer than the viewport */
+}
+
+.messages-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.messages-table th, .messages-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.messages-table th {
+  background-color: #f4f4f4;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.clear-button {
+  background-color: #f44336;
+  margin-top: 20px;
+}
